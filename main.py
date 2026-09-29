@@ -8,8 +8,8 @@ df = pd.read_csv("kaka.csv")
 
 #print(df)
 
-#print(df.info()) #MOstra informações sobre o Datafame, como número de linhas,colunas e tipos de dados
+print(df.info()) #MOstra informações sobre o Datafame, como número de linhas,colunas e tipos de dados
 
-#print(df.describe()) #mostra estatíticas descritivas das colunas númerica do DataFrome
+print(df.describe()) #mostra estatíticas descritivas das colunas númerica do DataFrome
 
 print(df.drop_duplicates()) #Remove linhas duplicadas da Dataframe e exibe o resultado
